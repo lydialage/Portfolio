@@ -22,12 +22,11 @@ h1 {
     font-family:Montserrat;
     background-color:#315ab3;    
     color:white;
+    font-size: 90px;
     text-align: center;
-    min-width: 300px;
-    max-width: 1000px;
     margin: auto;
-    padding: 25px;
-    padding-bottom:5%;}
+    padding: 15px;
+    padding-bottom:2%;}
 
 h2 {
     display: flex;
