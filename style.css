@@ -7,7 +7,7 @@
     src: url(Fontes/Roboto-Bold.ttf);}
 
 nav {
-    background-color:#113a93;
+    background-color:#fbce39f9;
     margin: 0px;
     padding: 1%;}
     nav> a{color:white;
@@ -15,12 +15,12 @@ nav {
     text-decoration:none;
     font-family:Montserrat;
     font-weight: bold;}
-    nav> a:hover {background-color:#fbce39f9;
+    nav> a:hover {background-color:#113a93;
     color: white;}
 
 h1 {
     font-family:Montserrat;
-    background-color:#315ab3;    
+    background-color:#113a93;    
     color:white;
     font-size: 70px;
     text-align: center;
