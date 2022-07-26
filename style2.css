@@ -42,10 +42,7 @@
 
         div#video>iframe{
             position:absolute;
-            top:4%;
-            left: 5%;
-            width:80%;
-            height:100%;}
+           }
 
     p { 
         font-size: 18px;
