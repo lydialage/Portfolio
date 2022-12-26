@@ -6,7 +6,7 @@
     font-family:Roboto;
     src: url(Fontes/Roboto-Regular.ttf);}
     
-    nav {background-color:black;
+    nav {background: color #eec33c;;
         margin: 0px;
         padding: 1%;}
         nav> a{color:white;
@@ -20,14 +20,14 @@
     h1 {text-align: center;
         font-size: 56%;
         font-family:Montserrat;
-        color:black;}
+        color:blacK;}
 
     h2 {text-align:center;
-        font-size: 30%;
+        font-size: 2rem;
         font-family:Montserrat;
         color:black;}
 
-    h3{font-size: 32%;
+    h3{font-size: 2rem;
         font-family: Roboto;
         color: #315ab3;
         }
