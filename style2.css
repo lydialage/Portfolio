@@ -6,28 +6,28 @@
     font-family:Roboto;
     src: url(Fontes/Roboto-Regular.ttf);}
     
-    nav {background: color #eec33c;;
+    nav {background-color:#eec33c;
         margin: 0px;
         padding: 1%;}
-        nav> a{color:white;
+        nav> a{color:#ffffff;
         padding: 10px;
         text-decoration:none;
         font-family:Montserrat;
         font-weight: bold;}
         nav> a:hover {background-color:#113a93;
-        color: white;}
+        color: rgb(255, 255, 255);}
    
     h1 {text-align: center;
-        font-size: 56%;
+        font-size: 2rem;
         font-family:Montserrat;
-        color:blacK;}
+        color:#315ab3;}
 
     h2 {text-align:center;
-        font-size: 2rem;
+        font-size: 1.20rem;
         font-family:Montserrat;
         color:black;}
 
-    h3{font-size: 2rem;
+    h3{font-size: 1.5rem;
         font-family: Roboto;
         color: #315ab3;
         }
@@ -41,11 +41,11 @@
     
     
     p { 
-        font-size: 18%;
+        font-size: 1rem;
         font-family: Roboto;}
 
     
-    div{font-size: 14px;
+    div{font-size: 1rem;
             font-family: Roboto;
             text-align: center;}
     
@@ -64,8 +64,8 @@
             height: 85%;
         } 
 
-        footer{background-color:black;
-        color:#315ab3;
+        footer{background-color:#000000;
+        color:white;
         text-align: center;
         font-family:Arial, Helvetica, sans-serif;
         text-decoration:solid; 
