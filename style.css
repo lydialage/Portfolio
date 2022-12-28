@@ -22,42 +22,47 @@ h1 {
     font-family:Montserrat;
     background-color:#113a93;    
     color:white;
-    font-size: 2em;
+    font-size: 4em;
     text-align: center;
     margin: auto;
     padding: 15px;
     padding-bottom:2%;}
 
 h2 {
-    display: flex;
     font-family:Montserrat;
     color:black;
-    font-weight: bolder;}
+    font-weight: bolder;
+}
 
-main {
-    min-width: 300px;
+main{ min-width: 300px;
     max-width: 1000px;
     margin: auto;
     padding: 25px;
     padding-bottom:5%;}
 
-figure{margin: 10px;}
+
+figure{margin:10px;}
 
 figure,a {
-    display: inline;}
+    display: inline-block;
+}
 
-span,img {
+div,img {
     display: inline-block;
     font-family:Roboto;}
 
-span,a {
+div,a {
     text-decoration: none;
     color: #315ab3;
     font-family:Montserrat;
-    font-weight: bolder;}
+    font-weight: bolder;
+}
 
-span,h2 {
-    color:black;}
+div,h2 {
+    color:black;
+    margin-top: 0%;
+}
+
 
     footer{background-color:black;
         color:white;
