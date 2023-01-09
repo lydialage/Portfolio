@@ -64,6 +64,9 @@
             height: 85%;
         } 
 
+        ul,li{font-size: 1rem;
+            font-family: Roboto;}
+
         footer{background-color:#000000;
         color:white;
         text-align: center;
