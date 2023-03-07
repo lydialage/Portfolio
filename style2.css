@@ -6,7 +6,7 @@
     font-family:Roboto;
     src: url(Fontes/Roboto-Regular.ttf);}
     
-    nav {background-color:#eec33c;
+    nav {background-color:black;
         margin: 0px;
         padding: 1%;}
         nav> a{color:white;
