@@ -15,12 +15,12 @@
         font-family:Montserrat;
         font-weight: bold;}
         nav> a:hover {background-color:#dfdfdf;
-        color:white;}
+        color:#9d0505;}
    
     h1 {text-align: center;
         font-size: 2rem;
         font-family:Montserrat;
-        color:#315ab3;}
+        color:#9d0505;}
 
     h2 {text-align:center;
         font-size: 1.20rem;
@@ -29,9 +29,20 @@
 
     h3{font-size: 1.5rem;
         font-family: Roboto;
-        color: #315ab3;
+        color: #9d0505;
         }
-
+        .container{
+            background-color:#9d0505;
+            height: 502px; 
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            }    
+            
+        .child{width: 50%;
+            height: 502px; 
+            border: 1px;
+        }
     main {
         min-width: 300px;
         max-width: 1000px;
