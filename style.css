@@ -29,7 +29,7 @@ h1 {
     padding-bottom:2%;}
 
 a{text-decoration: none;
-    color:#000000;
+    color:#080ec9;
     font-size: 1.20rem;
     font-family:Montserrat;
     font-weight: bolder;}
@@ -40,24 +40,26 @@ h2{
     font-weight: bolder;
     color:black;}
 
-p{font-family:Montserrat;
-        color:black;
-        font-weight: bolder;
-        height: 0px;
-        width: 450px;
-        padding: 1px;
-        padding-bottom: 23px;
-    text-align: justify;}
+p{ 
+    font-size:1.15rem;
+    font-family:Montserrat;
+    font-weight: bolder;
+    color:black;
+    }
     
     figure{text-align: center;
         margin: 40px;}
 
-    .container{display: flex;
+    .container{
+        height: 502px; 
+        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;}    
+        flex-wrap: wrap;
+        }    
         
     .child{width: 50%;
-        height: 500px;
+        height: 502px; 
+        border: 1px;
     }
    
         main{background-color: rgb(255, 252, 255);
