@@ -15,51 +15,64 @@ nav {
     text-decoration:none;
     font-family:Montserrat;
     font-weight: bold;}
-    nav> a:hover {background-color:#113a93;
+    nav> a:hover {background-color:#dfdfdf;
     color: white;}
 
 h1 {
     font-family:Montserrat;
     background-color:black;    
     color:white;
-    font-size: 3em;
+    font-size: 3rem;
     text-align: center;
     margin: auto;
     padding: 15px;
     padding-bottom:2%;}
 
-a{text-decoration: none;}
-
-a,h2{color:#113a93;
+a{text-decoration: none;
+    color:#000000;
+    font-size: 1.20rem;
     font-family:Montserrat;
     font-weight: bolder;}
 
-span{display: inline;
-        font-family:Montserrat;
+h2{
+    font-size: 1.20rem;
+    font-family:Montserrat;
+    font-weight: bolder;
+    color:black;}
+
+p{font-family:Montserrat;
         color:black;
         font-weight: bolder;
-        padding-bottom: 13px;
-    }
-
-    figure{text-align: center;
-    margin: 40px;}
-
-
-main{background-color: rgb(255, 252, 255); 
-    min-width: 300px;    
-    max-width: 1000px;
-    margin: auto;
-    padding: 25px;
-    padding-bottom:5%;}
-
-
+        height: 0px;
+        width: 450px;
+        padding: 1px;
+        padding-bottom: 23px;
+    text-align: justify;}
     
-footer{background-color:black;
-        color:white;
-        text-align: center;
-        font-family:Arial, Helvetica, sans-serif;
-        text-decoration:solid; 
-        margin: 0px;
-        padding-top: 2%;
-        padding-bottom: 2%;}
+    figure{text-align: center;
+        margin: 40px;}
+
+    .container{display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;}    
+        
+    .child{width: 50%;
+        height: 500px;
+    }
+   
+        main{background-color: rgb(255, 252, 255);
+            min-width: 300px;    
+            max-width: 1000px;
+            margin: auto;
+            padding: 25px;
+            padding-bottom:5%;}
+
+            footer{background-color:#000000;
+                color:white;
+                text-align: center;
+                font-family:Arial, Helvetica, sans-serif;
+                text-decoration:solid; 
+                margin: 0px;
+                padding-top: 2%;
+                padding-bottom: 2%;}
 
