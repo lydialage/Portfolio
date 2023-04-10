@@ -31,18 +31,7 @@
         font-family: Roboto;
         color: #9d0505;
         }
-        .container{
-            background-color:#9d0505;
-            height: 502px; 
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            }    
-            
-        .child{width: 50%;
-            height: 502px; 
-            border: 1px;
-        }
+    
     main {
         min-width: 300px;
         max-width: 1000px;
